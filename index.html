@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy's Beauty Shop | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Amy's <span>Beauty</span></div>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO AMY'S</p>
+            <h1>Beauty begins<br>with <span>you.</span></h1>
+            <p>
+                Discover everything
+        
+            </p>
+
+            <a href="products.html" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="featured">
+        <p class="section-label">OUR COLLECTION</p>
+        <h2>Beauty Favorites</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="product-icon">💄</div>
+                <h3>Makeup</h3>
+                <p>Beautiful colors for every style and occasion.</p>
+                <a href="products.html">Explore →</a>
+            </div>
+
+            <div class="card">
+                <div class="product-icon">🧴</div>
+                <h3>Skincare</h3>
+                <p>Simple skincare essentials for glowing skin.</p>
+                <a href="products.html">Explore →</a>
+            </div>
+
+            <div class="card">
+                <div class="product-icon">🌸</div>
+                <h3>Fragrance</h3>
+                <p>Elegant scents that make every moment special.</p>
+                <a href="products.html">Explore →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="quote">
+        <div>
+            <p>“Beauty is not about being perfect. It's about feeling amazing in your own skin.”</p>
+            <span>— Amy</span>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Amy's Beauty Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+<!-- AMY'S BEAUTY SHOP: PRODUCT COLLECTION -->
+<section class="amy-products" id="products">
+  <div class="amy-heading">
+    <p class="amy-eyebrow">YOUR DAILY DOSE OF GLAM ✨</p>
+    <h2>The Beauty Edit</h2>
+    <p>Little luxuries, lovely prices, endless glow.</p>
+  </div>
+
+  <div class="amy-grid">
+
+    <article class="amy-card">
+      <div class="amy-photo">
+        <span class="amy-badge">BESTSELLER</span>
+        <img src="https://placehold.co/500x600/F8E5E9/9B526A?text=Velvet+Skin+Foundation"
+             alt="Velvet Skin liquid foundation">
+      </div>
+      <div class="amy-info">
+        <p class="amy-type">FACE • COMPLEXION</p>
+        <h3>Velvet Skin Foundation</h3>
+        <p>Buildable coverage for your everyday glam.</p>
+        <div class="amy-buy">
+          <strong>89 MAD</strong>
+          <button onclick="amyAdd(this, 'Velvet Skin Foundation', 89)">
+            Add +
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="amy-card">
+      <div class="amy-photo">
+        <span class="amy-badge">GLOW UP</span>
+        <img src="https://placehold.co/500x600/F4E6FA/9362A8?text=Cloud+Touch+Concealer"
+             alt="Cloud Touch concealer">
+      </div>
+      <div class="amy-info">
+        <p class="amy-type">FACE • COMPLEXION</p>
+        <h3>Cloud Touch Concealer</h3>
+        <p>A creamy concealer for a fresh-looking finish.</p>
+        <div class="amy-buy">
+          <strong>49 MAD</strong>
+          <button onclick="amyAdd(this, 'Cloud Touch Concealer', 49)">
+            Add +
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="amy-card">
+      <div class="amy-photo">
+        <span class="amy-badge">PINK FAVORITE</span>
+        <img src="https://placehold.co/500x600/FBE1E8/C15D83?text=Rosy+Rush+Blush"
+             alt="Rosy Rush pink blush">
+      </div>
+      <div class="amy-info">
+        <p class="amy-type">CHEEKS • COLOR</p>
+        <h3>Ali and Amy`s Rosy Kiss Blush</h3>
+        <p>A pop of rosy color with a soft, pretty finish.</p>
+        <div class="amy-buy">
+          <strong>39 MAD</strong>
+          <button onclick="amyAdd(this, 'Ali and Amy`s Rosy Rush Blush', 39)">
+            Add +
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="amy-card">
+      <div class="amy-photo">
+        <span class="amy-badge">SHINE ON</span>
+        <img src="https://placehold.co/500x600/FCEBD8/B77852?text=Sugar+Kiss+Lip+Gloss"
+             alt="Sugar Kiss glossy lip product">
+      </div>
+      <div class="amy-info">
+        <p class="amy-type">LIPS • GLOSS</p>
+        <h3>Sugar Kiss Lip Gloss</h3>
+        <p>A glossy finish for your favorite lip look.</p>
+        <div class="amy-buy">
+          <strong>29 MAD</strong>
+          <button onclick="amyAdd(this, 'Sugar Kiss Lip Gloss', 29)">
+            Add +
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="amy-card">
+      <div class="amy-photo">
+        <img src="https://placehold.co/500x600/E8E2F8/725DA5?text=Midnight+Muse+Mascara"
+             alt="Midnight Muse mascara">
+      </div>
+      <div class="amy-info">
+        <p class="amy-type">EYES • LASHES</p>
+        <h3>Midnight Muse Mascara</h3>
+        <p>Define your lashes for an eye-catching look.</p>
+        <div class="amy-buy">
+          <strong>45 MAD</strong>
+          <button onclick="amyAdd(this, 'Midnight Muse Mascara', 45)">
+            Add +
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="amy-card">
+      <div class="amy-photo">
+        <span class="amy-badge">SOFT GLAM</span>
+        <img src="https://placehold.co/500x600/F5DCE9/A6537C?text=Pink+Cloud+Palette"
+             alt="Pink Cloud eyeshadow palette">
+      </div>
+      <div class="amy-info">
+        <p class="amy-type">EYES • SHADOW</p>
+        <h3>Pink Cloud Palette</h3>
+        <p>Dreamy pinks, soft neutrals and shimmery shades.</p>
+        <div class="amy-buy">
+          <strong>69 MAD</strong>
+          <button onclick="amyAdd(this, 'Pink Cloud Palette', 69)">
+            Add +
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="amy-card">
+      <div class="amy-photo">
+        <img src="https://placehold.co/500x600/F6E7DD/B17B59?text=Sun+Kissed+Bronzer"
+             alt="Sun Kissed bronzer">
+      </div>
+      <div class="amy-info">
+        <p class="amy-type">FACE • WARMTH</p>
+        <h3>Sun Kissed Bronzer</h3>
+        <p>A warm touch of color for a sunlit makeup look.</p>
+        <div class="amy-buy">
+          <strong>45 MAD</strong>
+          <button onclick="amyAdd(this, 'Sun Kissed Bronzer', 45)">
+            Add +
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="amy-card">
+      <div class="amy-photo">
+        <img src="https://placehold.co/500x600/E6F0EA/59806B?text=Cloud+Nine+Setting+Powder"
+             alt="Cloud Nine setting powder">
+      </div>
+      <div class="amy-info">
+        <p class="amy-type">FACE • FINISH</p>
+        <h3>Cloud Nine Powder</h3>
+        <p>A lightweight finishing touch for your makeup routine.</p>
+        <div class="amy-buy">
+          <strong>39 MAD</strong>
+          <button onclick="amyAdd(this, 'Cloud Nine Powder', 39)">
+            Add +
+          </button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- MINI SHOPPING CART -->
+<section class="amy-cart" id="amy-cart">
+  <h2>🛍️ Your Beauty Bag</h2>
+  <p id="amy-cart-empty">Your bag is waiting for something lovely!</p>
+  <ul id="amy-cart-items"></ul>
+  <p class="amy-total">Total: <strong id="amy-total">0 MAD</strong></p>
+  <button class="amy-clear" onclick="amyClear()">Clear bag</button>
+</section>
+DIL0
